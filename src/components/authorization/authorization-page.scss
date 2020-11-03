@@ -1,0 +1,31 @@
+.authorization-page {
+    display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-image: linear-gradient(to right bottom, #5881EF, #33BEFF, #33C4FF, #7AC1C7, #B4C77A);
+    .authorization-page-header{
+        display: flex;
+        justify-content: flex-end;
+        & > * {
+            margin: 10px 10px 10px 0;
+        }
+    }
+    .authorization-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        .authorization-form {
+            display: flex;
+            flex-direction: column;
+            .input-email,
+            .input-password {
+                margin: 4px 0;
+            }
+            .apply-button {
+                height: 56px;
+                margin: 4px 0;
+            }
+        }
+    }
+}
